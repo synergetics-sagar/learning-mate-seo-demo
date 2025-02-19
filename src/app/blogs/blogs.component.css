@@ -1,0 +1,20 @@
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image_container{
+    text-align: center;
+}
+.article_thumbnail{
+    box-shadow: 1px 1px 15px 5px rgb(220, 220, 220);
+    margin: 15px;
+    width: 250px;
+    padding: 10px;
+}
+img {
+    width: 250px;
+}
+span {
+    cursor: pointer;
+    text-decoration: underline;
+}

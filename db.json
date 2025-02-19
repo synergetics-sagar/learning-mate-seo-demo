@@ -1,0 +1,34 @@
+{
+    "articles": [
+        {
+            "id": "1",
+            "title": "Angular 2025 Strategy",
+            "content": "For the past two and a half years, we’ve been laser focused on improving developer experience and performance for all Angular developers. In this post, I’d like to share a brief summary of the high-level process that we’ve been following to achieve this and describe our strategy for 2025.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*aCsnm9viiL5Fo0JC-I_exQ.png"
+        },
+        {
+            "id": "2",
+            "title": "Meet Angular v19",
+            "content": "In the past two years we doubled down on our investment in developer experience and performance — in every single release we’ve been consistently shipping improvements that multiply their impact when combined together. Seeing the positive community response and increased engagement in our developer events is validating that we’ve been moving in the right direction. Today’s release is bringing a series of improvements that will make it even easier for you to deliver fast web apps with confidence.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*IKZuN_kzUYPl37lBXQkymQ.png"
+        },
+        {
+            "id": "3",
+            "title": "The future is standalone!",
+            "content": "Angular v19 will make standalone: true the default for components, directives, and pipes. In v14 we introduced a developer preview “standalone” feature, which made it possible for the first time to build an application that didn’t rely on NgModules. Since then, standalone has been stabilized, and has become the recommended way to write Angular code by the Angular team. The CLI generates components with standalone: true by default, and the Angular docs teach standalone first to all new Angular developers. Adoption is strong and continues to grow across the Angular ecosystem, both in the largest Angular applications written at Google as well as applications across the internet.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*KSsGo7ZogfbS0w5DPj-Q8g.png"
+        },
+        {
+            "id": "4",
+            "title": "Meet Angular’s new output() API",
+            "content": "Outputs allow component authors to emit values to parent components. We are introducing a new API to declare outputs that is closely aligned with other function-based APIs that we announced in v17, like signal inputs.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*nWl-YH3WpG-2McBK"
+        },
+        {
+            "id": "5",
+            "title": "Angular Developer Survey 2023",
+            "content": "Over the past year we’ve been evolving Angular based on developer feedback and community trends. We receive developer feedback from dozens of sources including GitHub, social media, interviews, conferences, etc. One of the strongest guiding indicators which has been highly influential in our prioritization process are the results from the Angular developer survey.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*i1IlGxbofpTcpqbP"
+        }
+    ]
+}

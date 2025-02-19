@@ -1,0 +1,19 @@
+
+
+<div *ngIf="error">
+    Problem while fetching Articles
+</div>
+<div class="articles">
+    <div *ngFor="let article of articles" class="article_thumbnail">
+        <div class="image_container">
+            <img src="{{article.image}}" alt="">
+        </div>
+        <div>
+            <h5>{{article.title}}</h5>
+        </div>
+        <div>
+            <p>{{article.content | preview}}...</p>
+        </div>
+        <span routerLink="/blogs/{{article.id}}">Read More</span>
+    </div>
+</div>

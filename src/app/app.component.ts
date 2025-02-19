@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Meta } from '@angular/platform-browser';
+import {  RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'learning-mate-seo-practice';
+  
+  constructor(private meta: Meta){
+    this.meta.updateTag({name: "description", content: "This App will help you to understand the Implementation and Benefits of SSR"})
+  }
 }
