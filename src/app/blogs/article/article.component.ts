@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BlogsService } from '../blogs.service';
-import { subscribe } from 'diagnostics_channel';
 import { Article } from '../article';
 import { CommonModule } from '@angular/common';
 import { Meta, Title } from '@angular/platform-browser';

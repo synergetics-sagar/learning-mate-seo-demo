@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HomeComponent } from './home.component';
+import { By } from '@angular/platform-browser';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;
@@ -20,4 +21,9 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it("Welcome Message Visible", ()=>{
+    const headingElement = fixture.debugElement.query(By.css("h1"))
+    expect(headingElement.nativeElement.textContent).toBe("Welcome to Angular")
+  })
 });
